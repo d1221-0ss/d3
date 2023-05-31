@@ -1,0 +1,55 @@
+.bg-overlay{
+
+    min-height: 100%;
+    background: url(https://wallpapercave.com/dwp1x/wp7196474.jpg) rgba(70, 70, 70, 0.3);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.a{
+    font-size: large;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(218, 218, 218);
+
+}
+
+.manu{
+
+    color: rgb(218, 218, 218);
+    overflow: auto;
+    text-align: center;
+}
+
+.b{
+    color: rgb(218, 218, 218);
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.c{ 
+    color: rgb(218, 218, 218);
+    text-align: right;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+}
+
+.icon{
+    color: #d63e7c;
+text-align: center;
+font-weight: bolder;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.video{
+    text-align: center;
+}
+
+.welcome{
+    color: rgb(218, 218, 218);
+    text-align: left;  
+    font-weight: bold;
+}

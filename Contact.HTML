@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css"> 
+    <title>Contact</title>
+
+    <style> body { background-color: #040410;}</style>
+
+    
+    <style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+      * {box-sizing: border-box;}
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+     
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      
+      hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+
+        .cancelbtn {
+          
+          background-color: #f44336;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+      </style>
+</head>
+<body>
+
+  <script>
+    window.alert("يرجى ملء هذا النموذج بالكامل.")
+</script>
+  
+    <div class="Contact">
+  <h3>اتصل بنا</h3>
+
+<hr>
+    <form action="Contact.HTML">
+      <label for="fname">الاسم الاول</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">الاسم الاخير</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">دولة</label>
+      <select id="country" name="country">
+        <option value="Saudi Arabia">المملكة العربية السعودية</option>
+        <option value="canada">كندا</option>
+        <option value="usa">امريكا</option>
+      </select>
+  
+      <label for="subject">الرسالة</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+
+      <button type="button" class="cancelbtn"><a href="index.HTML">إلغاء</a></button>
+    </form>
+
+  </div>
+
+</body>
+</html>
